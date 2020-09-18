@@ -147,11 +147,9 @@
   padding-right: 7px;
   text-align: center;
 }
-
 .boxtopwhite img {
   height: 130px;
 }
-
 .boxtopwhite h3::after {
   content: '';
   display: block;
@@ -214,7 +212,6 @@
   padding: 20px;
   background-color: #7cbb02;
 }
-
 .help a {
   color: white;
   text-decoration: none;

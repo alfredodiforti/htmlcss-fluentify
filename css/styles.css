@@ -9,6 +9,23 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+.blackbigtext {
+  color: black;
+  font-size: 30px;
+}
+.greysmalltext {
+  color: #808080;
+  font-size: 22px;
+  padding-top: 10px;
+  line-height: 30px;
+}
+.greenmaintext {
+  color: #7cbb02;
+  font-size:30px;
+  line-height: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 /* UTILITIES */
 .container {
@@ -63,6 +80,9 @@
   height: 464.45px;
   position: relative;
 }
+.borderbottom {
+  border-bottom: 1px solid grey;
+}
 
 /* HEADER */
 .bigblue {
@@ -81,8 +101,9 @@
   line-height: 73.6px;
 }
 .navigationbox .logo img {
-  padding-top: 15px;
   padding-right: 70px;
+  vertical-align: middle;
+  transform: translatey(-20%);
 }
 .navigationbox ul li {
   display: inline-block;
@@ -101,4 +122,100 @@
   font-size: 52px;
   color: white;
   margin-bottom: 30px;
+}
+
+/* MAIN */
+
+/* SMALLGREYBAR */
+.smallgrey {
+  width: 100%;
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 45px;
+}
+
+/* BIGWHITE */
+.bigwhite {
+  width: 100%;
+  padding-top: 50px;
+}
+.boxtopwhite {
+  float: left;
+  width: 33.333%;
+  padding-bottom: 30px;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: center;
+}
+
+.boxtopwhite img {
+  height: 130px;
+}
+
+.boxtopwhite h3::after {
+  content: '';
+  display: block;
+  width: 90px;
+  height: 1px;
+  background: grey;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* BOTTOM MAIN */
+.fiftymain {
+  width: 50%;
+  padding: 70px;
+  text-align: left;
+}
+.fiftymain h3 {
+  font-size: 35px;
+  line-height: 50px;
+}
+.fiftymain p {
+  margin-bottom: 25px;
+}
+.fiftymain a {
+  color: #5586bc;
+  font-size: 17px;
+}
+
+/* FOOTER */
+.greyfooter {
+  width: 100%;
+  background-color: #d3d3d3;
+}
+.greyfooter h3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.greyfooter span {
+  display: inline-block;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 20px;
+  line-height: 30px;
+  color: #808080;
+}
+#superfix {
+  margin-right: 0px;
+  color: white;
+  line-height: 50px;
+  position: relative;
+  bottom: 12px;
+}
+
+/* HELP BUTTON */
+.help {
+  position: fixed;
+  bottom: 15px;
+  right: 50px;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: #7cbb02;
+}
+
+.help a {
+  color: white;
+  text-decoration: none;
 }
